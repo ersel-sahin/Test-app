@@ -1,0 +1,40 @@
+import React from "react";
+
+import 'App.css';
+
+function WithButton() {
+  return (
+    <div className="preheader-container">
+      <div className="preheader">
+        <div className="p-sm bg-color-black-alpha-3">
+          <div className="wrap">
+            <div className="stack-x-j">
+              <div className="stack-x-l m-bw-x-lg">
+                <div className="font-weight-bold">
+                  GeneriCon 2023
+                </div>
+                <span>
+                  •
+                </span>
+                <div className="mute-50">
+                  Join us in Denver from June 7 – 9 to see what’s coming next. 
+                </div>
+                <div className="button button-size-xs button-color-black-alpha-1 radius-xl">
+                  <span className="color-black-alpha-7">
+                    Register Now
+                    <i className="icon p-l-sm iconoir-arrow-right"></i>
+                  </span>
+                </div>
+              </div>
+              <div className="stack-x-r h4">
+                <i className="iconoir-xmark"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+}
+
+export default WithButton;
