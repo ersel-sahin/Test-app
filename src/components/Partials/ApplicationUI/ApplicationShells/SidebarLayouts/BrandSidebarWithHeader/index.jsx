@@ -12,23 +12,23 @@ function BrandSidebarWithHeader () {
                   <img src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=500" alt="logo" />
                 </div>
                 <nav className="stack-y-l w-100">
-                  <a href="javascript:" className="p-y-md m-bw-x-md">
+                  <a href="javascript:;" className="p-y-md m-bw-x-md">
                     <i className="icon iconoir-home text-xl"></i>
                     <span>Dashboard</span>
                   </a>
-                  <a href="javascript:" className="p-y-md m-bw-x-md">
+                  <a href="javascript:;" className="p-y-md m-bw-x-md">
                     <i className="icon iconoir-group text-xl"></i>
                     <span>Team</span>
                   </a>
-                  <a href="javascript:" className="p-y-md m-bw-x-md">
+                  <a href="javascript:;" className="p-y-md m-bw-x-md">
                     <i className="icon iconoir-folder text-xl"></i>
                     <span>Projects</span>
                   </a>
-                  <a href="javascript:" className="p-y-md m-bw-x-md">
+                  <a href="javascript:;" className="p-y-md m-bw-x-md">
                     <i className="icon iconoir-calendar text-xl"></i>
                     <span>Calendar</span>
                   </a>
-                  <a href="javascript:" className="p-y-md m-bw-x-md">
+                  <a href="javascript:;" className="p-y-md m-bw-x-md">
                     <i className="icon iconoir-submit-document text-xl"></i>
                     <span>Reports</span>
                   </a>
@@ -38,22 +38,22 @@ function BrandSidebarWithHeader () {
                     Your teams
                   </div>
                   <div className="stack-y-l w-100">
-                    <a href="javascript:" className="stack-x-l p-y-md m-bw-x-md">
+                    <a href="javascript:;" className="stack-x-l p-y-md m-bw-x-md">
                       <span className="p-y-xs p-x-sm bg-color-gray-alpha-2 radius-lg">H</span>
                       <span>Heroicons</span>
                     </a>
-                    <a href="javascript:" className="stack-x-l p-y-md m-bw-x-md">
+                    <a href="javascript:;" className="stack-x-l p-y-md m-bw-x-md">
                       <div className="p-y-xs p-x-sm bg-color-gray-alpha-2 radius-lg">T</div>
                       <span>Tailwind Labs</span>
                     </a>
-                    <a href="javascript:" className="stack-x-l p-y-md m-bw-x-md">
+                    <a href="javascript:;" className="stack-x-l p-y-md m-bw-x-md">
                       <div className="p-y-xs p-x-sm bg-color-gray-alpha-2 radius-lg">W</div>
                       <span>Workcation</span>
                     </a>
                   </div>
                 </div>
               </div>
-              <a href="javascript:" className="stack-x-l p-y-md m-bw-x-md">
+              <a href="javascript:;" className="stack-x-l p-y-md m-bw-x-md">
                 <i className="text-xl icon iconoir-settings"></i>
                 <span>Settings</span>
               </a>
@@ -69,19 +69,19 @@ function BrandSidebarWithHeader () {
                   </div>
                   <div className="stack-x-c m-bw-x-lg w-20 mute-75">
                     <div className="h6">
-                      <a href="javascript:">
+                      <a href="javascript:;">
                         <i className="iconoir-bell"></i>
                       </a>
                     </div>
                     <div className="h-5vmin border-l border-color-black-alpha-1"></div>
                     <div className="stack-x-c m-bw-x-xs text-center">
-                      <a href="javascript:" className="h6">
+                      <a href="javascript:;" className="h6">
                         <i className="iconoir-profile-circle"></i>
                       </a>
-                      <a href="javascript:" className="text-xs p-l-sm">
+                      <a href="javascript:;" className="text-xs p-l-sm">
                         Tom Cook
                       </a>
-                      <a href="javascript:" className="h6">
+                      <a href="javascript:;" className="h6">
                         <i className="icon iconoir-nav-arrow-down"></i>
                       </a>
                     </div>

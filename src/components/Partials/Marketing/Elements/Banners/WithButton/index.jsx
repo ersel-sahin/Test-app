@@ -19,16 +19,16 @@ function WithButton() {
                 <div className="mute-50">
                   Join us in Denver from June 7 – 9 to see what’s coming next. 
                 </div>
-                <div className="button button-size-xs button-color-black-alpha-1 radius-xl">
+                <a href="javascript:;" className="button button-size-sm button-color-black-alpha-1 radius-xl">
                   <span className="color-black-alpha-7">
                     Register Now
-                    <i className="icon p-l-sm iconoir-arrow-right"></i>
                   </span>
-                </div>
+                  <i className="p-l-sm iconoir-arrow-right text-lg color-black-alpha-7"></i>
+                </a>
               </div>
-              <div className="stack-x-r h4">
+              <a href="javascript:;" className="stack-x-r h5">
                 <i className="iconoir-xmark"></i>
-              </div>
+              </a>
             </div>
           </div>
         </div>

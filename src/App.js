@@ -67,6 +67,7 @@ import Constrained from 'components/Partials/Marketing/Elements/Headers/Constrai
 
 // Marketing/Elements/Banners
 import WithButton from 'components/Partials/Marketing/Elements/Banners/WithButton/index.jsx';
+import WithStackedFlyoutMenu from 'components/Partials/Marketing/Elements/Banners/WithStackedFlyoutMenu/index.jsx';
 
 // Marketing/Feedback/Simple
 import Simple from 'components/Partials/Marketing/Feedback/Simple/index.jsx';
@@ -130,7 +131,6 @@ import SplitWithLogosOnRight from 'components/Partials/Marketing/PageSections/Lo
 // Marketing/PageSections/Faqs
 import OffsetWithSupportingText from 'components/Partials/Marketing/PageSections/Faqs/OffsetWithSupportingText/index.jsx';
 import Accordion from 'components/Partials/Marketing/PageSections/Faqs/Accordions/index.jsx'
-import AccordionOne from 'components/Partials/Marketing/PageSections/Faqs/AccordionOne/index.jsx'
 
 // Maarketing/Footers/ColumnWithCompanyMissionOnDark
 import ColumnWithCompanyMissionOnDark from 'components/Partials/Marketing/PageSections/Footers/ColumnWithCompanyMissionOnDark/index.jsx';
@@ -229,6 +229,9 @@ const routes = [
   { path: "Marketing/Elements/Banners/WithButton",
     element: <WithButton />,
   },
+  { path: "Marketing/Elements/Banners/WithStackedFlyoutMenu",
+    element: <WithStackedFlyoutMenu />,
+  },
   {
     path: "Marketing/Elements/Headers/Constrained",
     element: <Constrained />,
@@ -285,9 +288,6 @@ const routes = [
   },
   { path: "Marketing/PageSections/Faqs/Accordion",
     element: <Accordion />,
-  },
-  { path: "Marketing/PageSections/Faqs/AccordionOne",
-    element: <AccordionOne />,
   },
   {
     path: "Marketing/PageSections/FeatureSections/WithProductScreenshot",
