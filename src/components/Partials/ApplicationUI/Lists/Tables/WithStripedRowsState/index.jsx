@@ -163,4 +163,5 @@ function WithStripedRowsState () {
     </section>
   )
 }
+
 export default WithStripedRowsState;
