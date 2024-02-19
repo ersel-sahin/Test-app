@@ -2,7 +2,7 @@ import React from 'react';
 
 import 'App.css';
 
-function WithStripedRowss () {
+function WithStripedRows () {
   return (
     <section className="m-y-5xl">
       <div className="wrap">
@@ -217,4 +217,4 @@ function WithStripedRowss () {
     </section>
   )
 }
-export default WithStripedRowss;
+export default WithStripedRows;

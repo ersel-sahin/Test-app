@@ -61,6 +61,8 @@ import Simplee from 'components/Partials/ApplicationUI/Lists/StackedLists/Simple
 
 // ApplicationUI/Lists/Tables/WithStripedRows
 import WithStripedRows from 'components/Partials/ApplicationUI/Lists/Tables/WithStripedRows';
+import WithStripedRowsLoop from 'components/Partials/ApplicationUI/Lists/Tables/WithStripedRowsLoop';
+import WithStripedRowsState from 'components/Partials/ApplicationUI/Lists/Tables/WithStripedRowsState';
 
 // Marketing/Elements/Headers
 import Constrained from 'components/Partials/Marketing/Elements/Headers/Constrained/index.jsx';
@@ -225,6 +227,14 @@ const routes = [
   {
     path: "ApplicationUI/Lists/Tables/WithStripedRows",
     element: <WithStripedRows />,
+  },
+  {
+    path: "ApplicationUI/Lists/Tables/WithStripedRowsLoop",
+    element: <WithStripedRowsLoop />,
+  },
+  {
+    path: "ApplicationUI/Lists/Tables/WithStripedRowsState",
+    element: <WithStripedRowsState />,
   },
   { path: "Marketing/Elements/Banners/WithButton",
     element: <WithButton />,
