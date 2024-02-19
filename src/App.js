@@ -74,6 +74,7 @@ import Simple from 'components/Partials/Marketing/Feedback/Simple/index.jsx';
 
 // Marketing/HeroSections
 import SimpleCentered from 'components/Partials/Marketing/PageSections/HeroSections/SimpleCentered/index.jsx';
+import HeroOne from 'components/Partials/Marketing/PageSections/HeroSections/HeroOne/index.jsx';
 
 // Marketing/PageSections/PricingSections
 import SinglePriceWithDetails from 'components/Partials/Marketing/PageSections/PricingSections/SinglePriceWithDetails/index.jsx';
@@ -130,14 +131,13 @@ import SplitWithLogosOnRight from 'components/Partials/Marketing/PageSections/Lo
 
 // Marketing/PageSections/Faqs
 import OffsetWithSupportingText from 'components/Partials/Marketing/PageSections/Faqs/OffsetWithSupportingText/index.jsx';
-import Accordion from 'components/Partials/Marketing/PageSections/Faqs/Accordions/index.jsx'
+import Accordions from 'components/Partials/Marketing/PageSections/Faqs/Accordions/index.jsx'
 
 // Maarketing/Footers/ColumnWithCompanyMissionOnDark
 import ColumnWithCompanyMissionOnDark from 'components/Partials/Marketing/PageSections/Footers/ColumnWithCompanyMissionOnDark/index.jsx';
 
 
 const routes = [
-  
   { path: "ApplicationUI/ApplicationShells/SidebarLayouts/BrandSidebarWithHeader",
     element: <BrandSidebarWithHeader />,
   },
@@ -286,8 +286,8 @@ const routes = [
   { path: "Marketing/PageSections/Faqs/OffsetWithSupportingText",
     element: <OffsetWithSupportingText />,
   },
-  { path: "Marketing/PageSections/Faqs/Accordion",
-    element: <Accordion />,
+  { path: "Marketing/PageSections/Faqs/Accordions",
+    element: <Accordions />,
   },
   {
     path: "Marketing/PageSections/FeatureSections/WithProductScreenshot",
@@ -295,6 +295,10 @@ const routes = [
   },
   { path: "Marketing/PageSections/Footers/ColumnWithCompanyMissionOnDark",
     element: <ColumnWithCompanyMissionOnDark />,
+  },
+  {
+    path: "Marketing/PageSections/HeroSections/HeroOne",
+    element: <HeroOne />,
   },
   {
     path: "Marketing/PageSections/HeroSections/SimpleCentered",
