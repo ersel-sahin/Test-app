@@ -77,7 +77,9 @@ import Simple from 'components/Partials/Marketing/Feedback/Simple/index.jsx';
 
 // Marketing/HeroSections
 import SimpleCentered from 'components/Partials/Marketing/PageSections/HeroSections/SimpleCentered/index.jsx';
-import HeroOne from 'components/Partials/Marketing/PageSections/HeroSections/HeroOne/index.jsx';
+import SplitWithScreenshot from 'components/Partials/Marketing/PageSections/HeroSections/SplitWithScreenshot/index.jsx';
+import WithAngledİmageOnRight from 'components/Partials/Marketing/PageSections/HeroSections/WithAngledİmageOnRight/index.jsx';
+import SplitWithCodeExample from 'components/Partials/Marketing/PageSections/HeroSections/SplitWithCodeExample/index.jsx';
 
 // Marketing/PageSections/PricingSections
 import SinglePriceWithDetails from 'components/Partials/Marketing/PageSections/PricingSections/SinglePriceWithDetails/index.jsx';
@@ -125,6 +127,9 @@ import SimpleFourColumn from 'components/Partials/Marketing/PageSections/Contact
 
 // Marketing/PageSections/TeamSections
 import WithSmallİmages from 'components/Partials/Marketing/PageSections/TeamSections/WithSmallİmages/index.jsx';
+import DarkVersionWithLargeİmages from 'components/Partials/Marketing/PageSections/TeamSections/DarkVersionWithLargeİmages/index.jsx';
+import WithVerticalİmages from 'components/Partials/Marketing/PageSections/TeamSections/WithVerticalİmages/index.jsx';
+import WithVerticalİmagesOne from 'components/Partials/Marketing/PageSections/TeamSections/WithVerticalİmagesOne/index.jsx';
 
 // Marketing/PageSections/ContentSections
 import WithTestimonialAndStats from 'components/Partials/Marketing/PageSections/ContentSections/WithTestimonialAndStats/index.jsx';
@@ -139,6 +144,7 @@ import Accordions from 'components/Partials/Marketing/PageSections/Faqs/Accordio
 // Maarketing/Footers/ColumnWithCompanyMissionOnDark
 import ColumnWithCompanyMissionOnDark from 'components/Partials/Marketing/PageSections/Footers/ColumnWithCompanyMissionOnDark/index.jsx';
 
+import TestCopy from 'components/Partials/TestCopy/index.jsx'
 
 const routes = [
   { path: "ApplicationUI/ApplicationShells/SidebarLayouts/BrandSidebarWithHeader",
@@ -312,12 +318,20 @@ const routes = [
     element: <ColumnWithCompanyMissionOnDark />,
   },
   {
-    path: "Marketing/PageSections/HeroSections/HeroOne",
-    element: <HeroOne />,
+    path: "Marketing/PageSections/HeroSections/SplitWithScreenshot",
+    element: <SplitWithScreenshot />,
   },
   {
     path: "Marketing/PageSections/HeroSections/SimpleCentered",
     element: <SimpleCentered />,
+  },
+  {
+    path: "Marketing/PageSections/HeroSections/SplitWithCodeExample",
+    element: <SplitWithCodeExample />,
+  },
+  {
+    path: "Marketing/PageSections/HeroSections/WithAngledİmageOnRight",
+    element: <WithAngledİmageOnRight />,
   },
   {
     path: "Marketing/PageSections/HeaderSections/WithStats",
@@ -386,6 +400,22 @@ const routes = [
     path: "Marketing/PageSections/TeamSections/WithSmallİmages",
     element: <WithSmallİmages />,
   },
+  {
+    path: "Marketing/PageSections/TeamSections/DarkVersionWithLargeİmages",
+    element: <DarkVersionWithLargeİmages />,
+  },
+  {
+    path: "Marketing/PageSections/TeamSections/WithVerticalİmages",
+    element: <WithVerticalİmages />,
+  },
+  {
+    path: "Marketing/PageSections/TeamSections/WithVerticalİmagesOne",
+    element: <WithVerticalİmagesOne />,
+  },
+  {
+    path: "Marketing/Partials/TestCopy",
+    element: <TestCopy />,
+  }
 ];
 
 function App() {

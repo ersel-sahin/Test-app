@@ -23,7 +23,7 @@ function Simplee () {
             </div>
           </div>
           <div className="stack-x-r m-bw-x-md">
-            <div className="stack-y-r m-bw-y-sm">
+            <div className="stack-y-r m-bw-y-sm white-space-nowrap">
               <div className="text-sm color-black">
                 Business Relations
               </div>
@@ -59,7 +59,7 @@ function Simplee () {
             </div>
           </div>
           <div className="stack-x-r m-bw-x-md">
-            <div className="stack-y-r m-bw-y-sm">
+            <div className="stack-y-r m-bw-y-sm white-space-nowrap">
               <div className="text-sm color-black">
                 Co-Founder / CTO
               </div>
@@ -90,7 +90,7 @@ function Simplee () {
             </div>
           </div>
           <div className="stack-x-r m-bw-x-md">
-            <div className="stack-y-r m-bw-y-sm">
+            <div className="stack-y-r m-bw-y-sm white-space-nowrap">
               <div className="text-sm color-black">
                 Co-Founder / CTO
               </div>
@@ -126,7 +126,7 @@ function Simplee () {
             </div>
           </div>
           <div className="stack-x-r m-bw-x-md">
-            <div className="stack-y-r">
+            <div className="stack-y-rm-bw-y-sm white-space-nowrap">
               <div className="text-sm color-black">
                 Front-end Developer
               </div>
@@ -157,7 +157,7 @@ function Simplee () {
             </div>
           </div>
           <div className="stack-x-r m-bw-x-md">
-            <div className="stack-y-r m-bw-y-sm">
+            <div className="stack-y-r m-bw-y-sm white-space-nowrap">
               <div className="text-sm color-black">
                 Designer
               </div>
@@ -188,7 +188,7 @@ function Simplee () {
             </div>
           </div>
           <div className="stack-x-r m-bw-x-md">
-            <div className="stack-y-r m-bw-y-sm">
+            <div className="stack-y-r m-bw-y-sm white-space-nowrap">
               <div className="text-sm color-black">
                 Director of Product
               </div>
