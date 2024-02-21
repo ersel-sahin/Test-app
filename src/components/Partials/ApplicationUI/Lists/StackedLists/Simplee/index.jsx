@@ -126,7 +126,7 @@ function Simplee () {
             </div>
           </div>
           <div className="stack-x-r m-bw-x-md">
-            <div className="stack-y-rm-bw-y-sm white-space-nowrap">
+            <div className="stack-y-r m-bw-y-sm white-space-nowrap">
               <div className="text-sm color-black">
                 Front-end Developer
               </div>
