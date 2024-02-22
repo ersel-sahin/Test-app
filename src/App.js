@@ -80,6 +80,7 @@ import SimpleCentered from 'components/Partials/Marketing/PageSections/HeroSecti
 import SplitWithScreenshot from 'components/Partials/Marketing/PageSections/HeroSections/SplitWithScreenshot/index.jsx';
 import WithAngledİmageOnRight from 'components/Partials/Marketing/PageSections/HeroSections/WithAngledİmageOnRight/index.jsx';
 import SplitWithCodeExample from 'components/Partials/Marketing/PageSections/HeroSections/SplitWithCodeExample/index.jsx';
+import WithİmageTiless from 'components/Partials/Marketing/PageSections/HeroSections/WithİmageTiless/index.jsx';
 
 // Marketing/PageSections/PricingSections
 import SinglePriceWithDetails from 'components/Partials/Marketing/PageSections/PricingSections/SinglePriceWithDetails/index.jsx';
@@ -332,6 +333,10 @@ const routes = [
   {
     path: "Marketing/PageSections/HeroSections/WithAngledİmageOnRight",
     element: <WithAngledİmageOnRight />,
+  },
+  {
+    path: "Marketing/PageSections/HeroSections/WithİmageTiless",
+    element: <WithİmageTiless />,
   },
   {
     path: "Marketing/PageSections/HeaderSections/WithStats",

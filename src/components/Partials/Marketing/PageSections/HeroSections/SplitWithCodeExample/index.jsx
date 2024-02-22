@@ -21,17 +21,17 @@ function SplitWithCodeExample() {
             <div className="h1 font-weight-bold color-black">
               Data to enrich your online business
             </div>
-            <p className="h6 p-r-xl letter-spacing-xs mute-75">
+            <p className="text-xl p-r-xl letter-spacing-xs">
               Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure
               qui lorem cupidatat commodo. Elit sunt amet fugiat veniam
               occaecat fugiat aliqua.
             </p>
             <div className="stack-x-l m-bw-x-xl">
               <a href="javascript:;" className="button">
-                <span>Get started</span>
+                <span>Documentation</span>
               </a>
               <a href="javascript:;" className="button button-style-link button-color-black">
-                <span>Learn more</span>
+                <span>View on GitHub</span>
                 <i className="p-l-sm text-md iconoir-arrow-right"></i>
               </a>
             </div>

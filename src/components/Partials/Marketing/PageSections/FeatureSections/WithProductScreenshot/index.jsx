@@ -2,61 +2,73 @@ import React from 'react';
 
 import 'App.css';
 
+function İtems ({
+  item,
+  description,
+  b,
+  ...props
+})
+{
+  return (
+    <div className="stack-x-t m-bw-x-sm">
+      <div className="text-xl color-primary">
+        {item}
+      </div>
+      <div>
+        <b>
+          {b}
+        </b>
+        {description}
+      </div>
+    </div>
+  )
+}
+
 function WithProductScreenshot() {
   return (
     <section className="stack-y-c h-100vh">
-      <div className="absolute top-0 right-0 w-50 h-100 hidden visible@lg">
-        <img src="https://tailwindui.com/img/component-images/dark-project-app-screenshot.png" className="maximize object-contain" alt="" />
-      </div>
+      
       <div className="wrap">
-        <div className="row">
-          <div className="col-12 col-6@lg p-r-5xl@lg">
-            <div className="p-y-xl m-bw-y-lg">
-              <div className="stack-y-l">
-                <div className="text-lg font-weight-bold color-primary">
-                  Deploy faster
-                </div>
-                <div className="h1">
-                  A better workflow
-                </div>
+        <div className="row row-gap-y-xl">
+          <div className="col-12 col-6@md">
+            <div className="m-bw-y-sm">
+              <div className="text-xl font-weight-bold color-primary">
+                Deploy faster
               </div>
-              <div className="p-b-md text-lg line-height-md mute-75">
+              <div className="display-5">
+                A better workflow
+              </div>
+              <div className="p-b-md text-xl line-height-md mute-75">
                 Lorem ipsum, dolor sit amet consectetur adipisicing elit.
                 Maiores impedit perferendis suscipit eaque,
                 iste dolor cupiditate blanditiis ratione.
               </div>
-              <div className="stack-y-l m-bw-y-lg">
-                <div className="stack-x-t m-bw-x-sm">
-                  <div className="text-xl color-primary">
-                    <i className="iconoir-cloud-upload"></i>
-                  </div>
-                  <div>
-                    <strong>Push to deploy.</strong> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.
-                  </div>
-                </div>
-                <div className="stack-x-t m-bw-x-sm">
-                  <div className="text-xl color-primary">
-                    <i className="iconoir-lock"></i>
-                  </div>
-                  <div>
-                      <strong>SSL certificates.</strong> Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo.
-                  </div>
-                </div>
-                <div className="stack-x-t m-bw-x-sm">
-                  <div className="text-xl color-primary">
-                    <i className="iconoir-database-solid"></i>
-                  </div>
-                  <div>
-                    <strong>Database backups.</strong> Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna sit morbi lobortis.
-                  </div>
-                </div>
+              <div className="m-bw-y-lg">
+                <İtems
+                item={<i className="iconoir-cloud-upload"></i>}
+                b="Push to deploy"
+                description="Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione."
+                />
+                <İtems
+                item={<i className="iconoir-lock"></i>}
+                b="SSL certificates."
+                description="Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo."
+                />
+                <İtems
+                item={<i className="iconoir-database-solid"></i>}
+                b="Database backups."
+                description="Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna sit morbi lobortis."
+                />
               </div>
             </div>
           </div>
+          <div className="col-12 col-6@md">
+            <div className="absolute@md left-10@md w-50vw@md">
+              <img src="https://tailwindui.com/img/component-images/dark-project-app-screenshot.png" alt="" className="radius-md" />
+            </div>
+          </div>
         </div>
-        <div className="visible hidden@lg">
-          <img src="https://tailwindui.com/img/component-images/dark-project-app-screenshot.png" alt="" className="max-w-100vw" />
-        </div>
+        
       </div>
     </section>
   );
