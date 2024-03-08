@@ -14,6 +14,10 @@ import BrandSidebarWithHeader from 'components/Partials/ApplicationUI/Applicatio
 // ApplicationUI/ApplicationShells/StackedLayouts
 import DarkNavWithWhitePageHeader from 'components/Partials/ApplicationUI/ApplicationShells/StackedLayouts/DarkNavWithWhitePageHeader/index.jsx';
 
+// ApplicationUI/FormsLoop
+import LabelsOnLeftLoop from 'components/Partials/ApplicationUI/Forms/FormsLayout/LabelsOnLeftLoop/index.jsx';
+import StackedLoop from 'components/Partials/ApplicationUI/Forms/FormsLayout/StackedLoop/index.jsx';
+
 // ApplicationUI/Forms
 import LabelsOnLeft from 'components/Partials/ApplicationUI/Forms/FormsLayout/LabelsOnLeft/index.jsx';
 import Stacked from 'components/Partials/ApplicationUI/Forms/FormsLayout/Stacked/index.jsx';
@@ -34,6 +38,8 @@ import WithActionsAndTabs from 'components/Partials/ApplicationUI/Headings/Secti
 
 // ApplicationUI/DataDisplay/DescriptionLists/LeftAligned
 import LeftAligned from 'components/Partials/ApplicationUI/DataDisplay/DescriptionLists/LeftAligned/index.jsx';
+import LeftAlignedOne from 'components/Partials/ApplicationUI/DataDisplay/DescriptionLists/LeftAlignedOne/index.jsx';
+import LeftAlignedTwo from 'components/Partials/ApplicationUI/DataDisplay/DescriptionLists/LeftAlignedTwo/index.jsx';
 
 // ApplicationUI/DataDisplay/Stats/WithTrending
 import WithTrending from 'components/Partials/ApplicationUI/DataDisplay/Stats/WithTrending/index.jsx';
@@ -91,6 +97,8 @@ import WithComparisonTable from 'components/Partials/Marketing/PageSections/Pric
 
 // Marketing/PageSections/FeatureSections
 import WithProductScreenshot from 'components/Partials/Marketing/PageSections/FeatureSections/WithProductScreenshot/index.jsx';
+import CenteredGrid from 'components/Partials/Marketing/PageSections/FeatureSections/CenteredGrid/index.jsx';
+import WithLargeScreenshotOnDark from 'components/Partials/Marketing/PageSections/FeatureSections/WithLargeScreenshotOnDark/index.jsx';
 
 // Marketing/PageSections/CtaSecti̇ons
 import DarkPanelWithAppScreenshot from 'components/Partials/Marketing/PageSections/CtaSections/DarkPanelWithAppScreenshot/index.jsx';
@@ -157,6 +165,12 @@ const routes = [
   { path: "ApplicationUI/DataDisplay/DescriptionLists/LeftAligned",
     element: <LeftAligned />,
   },
+  { path: "ApplicationUI/DataDisplay/DescriptionLists/LeftAlignedOne",
+    element: <LeftAlignedOne />,
+  },
+  { path: "ApplicationUI/DataDisplay/DescriptionLists/LeftAlignedTwo",
+    element: <LeftAlignedTwo />,
+  },
   { path: "ApplicationUI/DataDisplay/Stats/WithTrending",
     element: <WithTrending />,
   },
@@ -171,6 +185,14 @@ const routes = [
   },
   { path: "ApplicationUI/Feedback/EmptyStates/WithTemplates",
     element: <WithTemplates />,
+  },
+  {
+    path: "ApplicationUI/Forms/FormsLayout/LabelsOnLeftLoop",
+    element: <LabelsOnLeftLoop />,
+  },
+  {
+    path: "ApplicationUI/Forms/FormsLayout/StackedLoop",
+    element: <StackedLoop />,
   },
   {
     path: "ApplicationUI/Forms/FormsLayout/LabelsOnLeft",
@@ -312,8 +334,16 @@ const routes = [
     element: <Accordions />,
   },
   {
+    path: "Marketing/PageSections/FeatureSections/CenteredGrid",
+    element: <CenteredGrid />,
+  },
+  {
     path: "Marketing/PageSections/FeatureSections/WithProductScreenshot",
     element: <WithProductScreenshot />,
+  },
+  {
+    path: "Marketing/PageSections/FeatureSections/WithLargeScreenshotOnDark",
+    element: <WithLargeScreenshotOnDark />,
   },
   { path: "Marketing/PageSections/Footers/ColumnWithCompanyMissionOnDark",
     element: <ColumnWithCompanyMissionOnDark />,

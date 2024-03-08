@@ -2,25 +2,16 @@ import React from 'react';
 
 import 'App.css';
 
-function LabelGroupInput ({
-  value,
-})
-{
-  return (
-    <input className="input" defaultValue={value} />
-  )
-}
-
 function LabelGroupText ({
   value,
 })
 {
   return (
-    <div className="input-col-label">
-      <div className="stack-x-j">
+    <>
+      <div className="mute-75">
         {value}
       </div>
-    </div>
+    </>
   )
 }
 
@@ -43,9 +34,10 @@ function LabelGroupFiles ({
               </div>
             </div>
             <div className="stack-x-r">
-              <a href={item.downloadUrl} className="button button-style-link">
+              <input type="file" name="cover-photo" id="cover_photo" className="hidden" />
+              <label htmlFor="cover_photo" className="button button-style-link">
                 Download
-              </a>
+              </label>
             </div>
           </div>
           {index + 1 < value.length && (
@@ -61,34 +53,23 @@ function LabelGroup ({
   type,
   label,
   value,
-  valuePrefix,
-  valueSuffix,
-  valueIsPassword,
-})
+}) 
 {
   return (
     <div className="row">
       <div className="col-12 col-4@md">
-        <div className="input-col-label font-weight-bold">
+        <span className="font-weight-bold">
           {label}
-        </div>
+        </span>
       </div>
       <div className="col-12 col-8@md">
         {type === 'text' && (
           <LabelGroupText
             value={value}
-            valuePrefix={valuePrefix}
-            valueSuffix={valueSuffix}
-            valueIsPassword={valueIsPassword}
           />
         )}
         {type === 'files' && (
           <LabelGroupFiles
-            value={value}
-          />
-        )}
-        {type === 'input' && (
-          <LabelGroupInput
             value={value}
           />
         )}
@@ -97,17 +78,13 @@ function LabelGroup ({
   )
 }
 
-function LeftAligned () {
+function LeftAlignedTwo () {
+
   const items = [
     {
-      type: 'input',
+      type: 'text',
       label: 'Full Name',
-      value: 'Margot Foster',
-    },
-    {
-      type: 'input',
-      label: 'Email',
-      value: 'margot@example.com',
+      value: 'Margot Robbie',
     },
     {
       type: 'text',
@@ -116,14 +93,13 @@ function LeftAligned () {
     },
     {
       type: 'text',
-      label: 'Salary expectation',
-      value: '$120,000',
+      label: 'Email address',
+      value: 'margotfoster@example.come',
     },
     {
       type: 'text',
-      label: 'Password',
-      value: '••••••',
-      valueIsPassword: true,
+      label: 'Salary expectation',
+      value: '$120,000',
     },
     {
       type: 'text',
@@ -144,19 +120,14 @@ function LeftAligned () {
           size: '1.6mb',
           downloadUrl: '#',
         },
-        {
-          title: 'resume_back_end_developer.pdf',
-          size: '2.4mb',
-          downloadUrl: '#',
-        },
       ],
     },
-  ];
+  ]
 
   return (
     <section className="m-y-5xl">
-      <div className="wrap-mini">
-        <div className="stack-y-l m-bw-y-sm">
+      <div className="wrap-mini m-bw-y-lg">
+        <div className="m-bw-y-xs">
           <div className="h6 font-weight-bold">
             Applicant Information
           </div>
@@ -164,19 +135,16 @@ function LeftAligned () {
             Personal details and application. 
           </div>
         </div>
-        <div className="space-3xl"></div>
+        <div className="space-md"></div>
         {items.map((item, index) => (
           <>
             <LabelGroup
               type={item.type}
               label={item.label}
               value={item.value}
-              valuePrefix={item.valuePrefix}
-              valueSuffix={item.valueSuffix}
-              valueIsPassword={item.valueIsPassword}
             />
             {index + 1 < items.length && (
-              <hr />
+              <hr/>
             )}
           </>
         ))}
@@ -185,4 +153,4 @@ function LeftAligned () {
   )
 }
 
-export default LeftAligned;
+export default LeftAlignedTwo;

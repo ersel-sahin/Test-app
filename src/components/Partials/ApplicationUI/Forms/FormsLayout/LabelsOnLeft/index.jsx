@@ -9,10 +9,15 @@ import Radio from 'components/Core/Radio/index.jsx';
 import CheckBox from 'components/Core/CheckBox/index.jsx';
 
 function LabelsOnLeft () {
+  const item = [
+    {
+      label:'Username',
+      value:''
+    },
+  ]
   return (
     <section className="m-y-5xl">
       <div className="wrap">
-        
         <form>
             <fieldset>
               <div className="row row-gap-lg">
@@ -269,7 +274,6 @@ function LabelsOnLeft () {
               />
             </fieldset>
         </form>
-
       </div>
     </section>
   );

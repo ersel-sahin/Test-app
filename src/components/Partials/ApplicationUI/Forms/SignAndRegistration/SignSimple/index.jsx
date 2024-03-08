@@ -15,7 +15,7 @@ function SignSimple () {
           <div className="h3 font-weight-bold">
             Sign in to your account
           </div>
-          <div className="w-50 m-bw-y-lg">
+          <div className="w-100 w-40@md m-bw-y-lg">
             <div>
               <label for="emailaddress" className="input-col-label">
                 <strong>Email</strong>

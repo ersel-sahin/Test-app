@@ -10,7 +10,7 @@ function İtems ({
 })
 {
   return (
-    <div className="stack-x-t m-bw-x-sm">
+    <div className="stack-x-tl m-bw-x-sm">
       <div className="text-xl color-primary">
         {item}
       </div>
@@ -30,7 +30,7 @@ function WithProductScreenshot() {
       
       <div className="wrap">
         <div className="row row-gap-y-xl">
-          <div className="col-12 col-6@md">
+          <div className="col-12 col-6@lg">
             <div className="m-bw-y-sm">
               <div className="text-xl font-weight-bold color-primary">
                 Deploy faster
@@ -62,8 +62,8 @@ function WithProductScreenshot() {
               </div>
             </div>
           </div>
-          <div className="col-12 col-6@md">
-            <div className="absolute@md left-10@md w-50vw@md">
+          <div className="col-12 col-6@lg">
+            <div className="absolute@lg left-10@lg w-100vw w-50vw@lg">
               <img src="https://tailwindui.com/img/component-images/dark-project-app-screenshot.png" alt="" className="radius-md" />
             </div>
           </div>
